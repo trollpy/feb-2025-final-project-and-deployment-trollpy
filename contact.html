@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | THOMPHO SHERIFF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 3D Background -->
+    <div id="canvas-container"></div>
+    
+    <!-- Glass Navigation -->
+    <!-- <nav class="glass-nav">
+        <div class="nav-brand">
+            <span class="gradient-text">THOMPHO SHERIFF</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="education.html" class="nav-link">Education</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="languages.html" class="nav-link">Languages</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="interests.html" class="nav-link">Interests</a></li>
+            <li><a href="contact.html" class="acitve nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-hire">
+            <a href="contact.html" class="pulse-btn">Hire Me</a>
+        </div>
+    </nav> -->
+    <nav class="glass-nav">
+        <div class="nav-brand">
+            <span class="gradient-text">T.T.S</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class=" nav-link" class="">Home</a></li>
+            
+            <!-- About Dropdown -->
+            <li class="dropdown">
+                <a href="about.html" class="nav-link">About ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="languages.html" class="nav-link">Languages</a></li>
+                    <li><a href="interests.html" class="nav-link">Interests</a></li>
+                </ul>
+            </li>
+            
+            <!-- Career Dropdown -->
+            <li class="dropdown">
+                <a href="experience.html" class="nav-link">Career ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="contact.html" class="active nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="nav-hire">
+            <a href="contact.html" class="pulse-btn">Hire Me</a>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h1 class="section-title">Get In <span class="gradient-text">Touch</span></h1>
+                <p class="contact-description">Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
+                <br>Even if you just want to say hi, I would love to hear from you! <br>
+                </p>
+                
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <p>Tshivhenga18@gmail.com <br> Tshivhengats@live.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Phone</h3>
+                        <p>(+27) 76 3300 523</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Location</h3>
+                        <p>Mpumalanga, South Africa</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/trollpy" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sheriff-tshivhenga-699969191/" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="underline"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                        <div class="underline"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="subject" required>
+                        <label for="subject">Subject</label>
+                        <div class="underline"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="underline"></div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+                <div class="form-decoration">
+                    <div class="decor-circle"></div>
+                    <div class="decor-circle"></div>
+                    <div class="decor-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Map -->
+    <section class="contact-map">
+        <div class="map-container">
+            <div class="map-overlay">
+                <h3>Based in Mpumalanga</h3>
+                <p>Available for remote work worldwide</p>
+                <div class="timezone">
+                    <i class="fas fa-clock"></i>
+                    <span>South Africa (GMT+2)</span>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57627.59012910485!2d30.944788098345917!3d-25.48087716327469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee84a158d3e2739%3A0x7aa50ca83429a0f8!2sMbombela!5e0!3m2!1sen!2sza!4v1743953901042!5m2!1sen!2sza" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            <div class="map-placeholder"></div>
+        </div>
+    </section>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+    <script>
+        // Form input effects
+        const formGroups = document.querySelectorAll('.form-group');
+        
+        formGroups.forEach(group => {
+            const input = group.querySelector('input, textarea');
+            
+            input.addEventListener('focus', () => {
+                group.querySelector('label').classList.add('active');
+                group.querySelector('.underline').classList.add('active');
+            });
+            
+            input.addEventListener('blur', () => {
+                if (!input.value) {
+                    group.querySelector('label').classList.remove('active');
+                }
+                group.querySelector('.underline').classList.remove('active');
+            });
+            
+            // Check if there's already a value (for page refresh)
+            if (input.value) {
+                group.querySelector('label').classList.add('active');
+            }
+        });
+        
+        // Form submission
+        const contactForm = document.querySelector('.contact-form');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Here you would typically send the form data to a server
+            // For demo purposes, we'll just show a success message
+            
+            const submitBtn = contactForm.querySelector('.submit-btn');
+            submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+            submitBtn.style.backgroundColor = '#00BFA6';
+            
+            setTimeout(() => {
+                submitBtn.innerHTML = '<span>Send Message</span><i class="fas fa-paper-plane"></i>';
+                submitBtn.style.backgroundColor = '#6C63FF';
+                contactForm.reset();
+                
+                formGroups.forEach(group => {
+                    group.querySelector('label').classList.remove('active');
+                });
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

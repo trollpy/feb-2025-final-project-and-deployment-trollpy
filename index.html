@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THOMPHO SHERIFF | Innovative Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 3D Background -->
+    <div id="canvas-container"></div>
+    
+    <!-- Glass Navigation -->
+    <!-- <nav class="glass-nav">
+        <div class="nav-brand">
+            <span class="gradient-text">T.T.S</span>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="active nav-link" id="icon-home">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="education.html" class="nav-link">Education</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="languages.html" class="nav-link">Languages</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="interests.html" class="nav-link">Interests</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-hire">
+            <a href="contact.html" class="pulse-btn">Hire Me</a>
+        </div>
+    </nav> -->
+
+    <nav class="glass-nav">
+        <div class="nav-brand">
+            <span class="gradient-text">T.T.S</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="active nav-link" id="icon-home">Home</a></li>
+            
+            <!-- About Dropdown -->
+            <li class="dropdown">
+                <a href="about.html" class="nav-link">About ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="languages.html" class="nav-link">Languages</a></li>
+                    <li><a href="interests.html" class="nav-link">Interests</a></li>
+                </ul>
+            </li>
+            
+            <!-- Career Dropdown -->
+            <li class="dropdown">
+                <a href="experience.html" class="nav-link">Career ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="nav-hire">
+            <a href="contact.html" class="pulse-btn">Hire Me</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Tshivhenga</span> T. S.
+                    <span class="gradient-text" style="font-size: 40px;">Software</span>
+                    <span class="hero-highlight" style="font-size: 40px;">Developer & Designer</span> 
+                    <span class="hero-subtitle">Crafted with Precision</span>
+                </h1>
+                <p class="hero-description">
+                    aspiring full-stack developer with a passion for creating innovative solutions. I specialize in web and mobile applications, focusing on user experience and performance.
+                    My goal is to build applications that not only meet user needs but also exceed their expectations.
+                </p>
+                <div class="hero-cta">
+                    <a href="projects.html" class="btn-primary">View Portfolio</a>
+                    <a href="cv/cv.pdf" download class="btn-secondary">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <img src="images/pic.gif" alt="Your Name" class="profile-img">
+
+                    <div class="profile-decor">
+                        <div class="decor-circle decor-1"></div>
+                        <div class="decor-circle decor-2"></div>
+                        <div class="decor-circle decor-3"></div>
+                        <div class="decor-circle decor-4"></div>
+                        <div class="decor-circle decor-5"></div>
+                        <div class="decor-circle decor-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Explore More</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Skills Preview -->
+    <section class="skills-preview">
+        <h2 class="section-title">My <span class="gradient-text">Expertise</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card" style="--hue: 260;">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript,TypeScript, Vue, Angular</p>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 67%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" style="--hue: 180;">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend</h3>
+                <p>Python, Node.js, MangoDB, mySQL,AWS, React Native, Flutter, Django</p>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-card" style="--hue: 340;">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Tools</h3>
+                <p>VS Code, GIT, GitHub <br><br></p>
+                <div class="skill-progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="js/three.min.js"></script>
+    <script src="js/main.js"></script>  
+    <script src="js/menu.js"></script>
+
+
+</body>
+</html>

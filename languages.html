@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages | THOMPHO SHERIFF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 3D Background -->
+    <div id="canvas-container"></div>
+    
+    <!-- Glass Navigation -->
+    <!-- <nav class="glass-nav">
+        <div class="nav-brand">
+            <span class="gradient-text">T.T.S</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="education.html" class="nav-link">Education</a></li>
+            <li><a href="experience.html" class="nav-link">Experience</a></li>
+            <li><a href="languages.html" class="active nav-link">Languages</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="interests.html" class="nav-link">Interests</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-hire">
+            <a href="contact.html" class="pulse-btn">Hire Me</a>
+        </div>
+    </nav> -->
+    <nav class="glass-nav">
+        <div class="nav-brand">
+            <span class="gradient-text">T.T.S</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="active nav-link" id="icon-home">Home</a></li>
+            
+            <!-- About Dropdown -->
+            <li class="dropdown">
+                <a href="about.html" class="nav-link">About ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="languages.html" class="active nav-link">Languages</a></li>
+                    <li><a href="interests.html" class="nav-link">Interests</a></li>
+                </ul>
+            </li>
+            
+            <!-- Career Dropdown -->
+            <li class="dropdown">
+                <a href="experience.html" class="nav-link">Career ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <div class="nav-hire">
+            <a href="contact.html" class="pulse-btn">Hire Me</a>
+        </div>
+    </nav>
+
+    <!-- Language Proficiency -->
+    <section class="language-proficiency">
+        <div class="proficiency-container">
+            <h1 class="section-title">Programming <span class="gradient-text">Languages</span></h1>
+            
+            <div class="language-globe">
+                <div class="globe-container">
+                    <div class="globe">
+                        <!-- Language items will be positioned around the globe -->
+                        <div class="language-item" style="--angle: 0deg; --distance: 120px;">
+                            <div class="language-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="language-info">
+                                <h3>JavaScript</h3>
+                                <div class="language-level">
+                                    <div class="level-bar" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="language-item" style="--angle: 60deg; --distance: 120px;">
+                            <div class="language-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="language-info">
+                                <h3>Python</h3>
+                                <div class="language-level">
+                                    <div class="level-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="language-item" style="--angle: 120deg; --distance: 120px;">
+                            <div class="language-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="language-info">
+                                <h3>Java</h3>
+                                <div class="language-level">
+                                    <div class="level-bar" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="language-item" style="--angle: 180deg; --distance: 120px;">
+                            <div class="language-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="language-info">
+                                <h3>SQL</h3>
+                                <div class="language-level">
+                                    <div class="level-bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="language-item" style="--angle: 240deg; --distance: 120px;">
+                            <div class="language-icon">
+                                <i class="fab fa-swift"></i>
+                            </div>
+                            <div class="language-info">
+                                <h3>Swift</h3>
+                                <div class="language-level">
+                                    <div class="level-bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="language-item" style="--angle: 300deg; --distance: 120px;">
+                            <div class="language-icon">
+                                <i class="fab fa-rust"></i>
+                            </div>
+                            <div class="language-info">
+                                <h3>Rust</h3>
+                                <div class="language-level">
+                                    <div class="level-bar" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="globe-core"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Language Comparison -->
+    <section class="language-comparison">
+        <div class="comparison-container">
+            <h2 class="section-title">Language <span class="gradient-text">Comparison</span></h2>
+            
+            <div class="comparison-radar">
+                <canvas id="languageRadarChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Language Projects -->
+    <section class="language-projects">
+        <div class="projects-container">
+            <h2 class="section-title">Notable <span class="gradient-text">Projects</span> by Language</h2>
+            
+            <div class="projects-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="javascript">JavaScript</button>
+                    <button class="tab-button" data-tab="python">Python</button>
+                    <button class="tab-button" data-tab="java">Java</button>
+                </div>
+                
+                <div class="tab-content active" id="javascript">
+                    <div class="project-card glass-card">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-featured online store built with React, Node.js, and MongoDB</p>
+                        <div class="project-stats">
+                            <span>95% JavaScript</span>
+                            <span>5% CSS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card glass-card">
+                        <h3>Task Management App</h3>
+                        <p>Real-time collaborative app using Vue.js and Firebase</p>
+                        <div class="project-stats">
+                            <span>85% JavaScript</span>
+                            <span>15% HTML</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="python">
+                    <div class="project-card glass-card">
+                        <h3>AI Image Recognition</h3>
+                        <p>Machine learning model for object detection using TensorFlow</p>
+                        <div class="project-stats">
+                            <span>100% Python</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card glass-card">
+                        <h3>Data Analysis Dashboard</h3>
+                        <p>Interactive visualization tool with Pandas and Matplotlib</p>
+                        <div class="project-stats">
+                            <span>90% Python</span>
+                            <span>10% JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="java">
+                    <div class="project-card glass-card">
+                        <h3>Banking System</h3>
+                        <p>Secure transaction processing system with Spring Boot</p>
+                        <div class="project-stats">
+                            <span>80% Java</span>
+                            <span>20% SQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card glass-card">
+                        <h3>Android Fitness App</h3>
+                        <p>Mobile application for workout tracking and planning</p>
+                        <div class="project-stats">
+                            <span>75% Java</span>
+                            <span>25% XML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Language Radar Chart
+        const radarCtx = document.getElementById('languageRadarChart').getContext('2d');
+        const radarChart = new Chart(radarCtx, {
+            type: 'radar',
+            data: {
+                labels: ['Productivity', 'Performance', 'Learning Curve', 'Community', 'Versatility', 'Job Market'],
+                datasets: [
+                    {
+                        label: 'JavaScript',
+                        data: [90, 70, 80, 85, 85, 85],
+                        backgroundColor: 'rgba(108, 99, 255, 0.2)',
+                        borderColor: '#6C63FF',
+                        borderWidth: 2,
+                        pointBackgroundColor: '#6C63FF'
+                    },
+                    {
+                        label: 'Python',
+                        data: [95, 65, 90, 90, 85, 90],
+                        backgroundColor: 'rgba(0, 191, 166, 0.2)',
+                        borderColor: '#00BFA6',
+                        borderWidth: 2,
+                        pointBackgroundColor: '#00BFA6'
+                    },
+                    {
+                        label: 'Java',
+                        data: [70, 85, 60, 80, 75, 85],
+                        backgroundColor: 'rgba(255, 101, 132, 0.2)',
+                        borderColor: '#FF6584',
+                        borderWidth: 2,
+                        pointBackgroundColor: '#FF6584'
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    r: {
+                        angleLines: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        suggestedMin: 50,
+                        suggestedMax: 100,
+                        pointLabels: {
+                            color: '#fff',
+                            font: {
+                                family: 'Poppins',
+                                size: 12
+                            }
+                        },
+                        ticks: {
+                            display: false,
+                            stepSize: 20
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: 'white',
+                            font: {
+                                family: 'Poppins'
+                            }
+                        }
+                    }
+                },
+                elements: {
+                    line: {
+                        tension: 0.1
+                    }
+                }
+            }
+        });
+
+        // Tab functionality
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons and contents
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                button.classList.add('active');
+                const tabId = button.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Animate language items around the globe
+        const languageItems = document.querySelectorAll('.language-item');
+        languageItems.forEach(item => {
+            const angle = item.style.getPropertyValue('--angle');
+            const distance = item.style.getPropertyValue('--distance');
+            
+            item.style.transform = `rotate(${angle}) translate(${distance}) rotate(${angle})`;
+            
+            item.addEventListener('mouseenter', () => {
+                item.style.transform = `rotate(${angle}) translate(calc(${distance} * 1.2)) rotate(${angle})`;
+                item.style.zIndex = '10';
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                item.style.transform = `rotate(${angle}) translate(${distance}) rotate(${angle})`;
+                item.style.zIndex = '1';
+            });
+        });
+    </script>
+</body>
+</html>
