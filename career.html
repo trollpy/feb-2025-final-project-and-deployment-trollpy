@@ -64,7 +64,7 @@
             <div class="hero-text">
                 <h1 class="gradient-text">Full Stack Developer</h1>
                 <h2>MERN Stack Specialist | Python Data Solutions</h2>
-                <p class="hero-subtitle">Building performant web applications and scalable data systems with 5+ years of professional experience</p>
+                <p class="hero-subtitle">Building performant web applications and scalable data systems with 3+ years of professional experience</p>
                 <div class="hero-cta">
                     <a href="#experience" class="btn-primary">View Experience</a>
                     <a href="projects.html" class="btn-secondary">See Projects</a>
@@ -74,21 +74,21 @@
             <div class="tech-stack-badge">
                 <div class="stack-column">
                     <div class="stack-item">
-                        <img src="images/tech/react.svg" alt="React">
+                        <img src="images/projects/react.jpeg" alt="React">
                         <span>React.js</span>
                     </div>
                     <div class="stack-item">
-                        <img src="images/tech/nodejs.svg" alt="Node.js">
+                        <img src="images/projects/node.jpeg" alt="Node.js">
                         <span>Node.js</span>
                     </div>
                 </div>
                 <div class="stack-column">
                     <div class="stack-item">
-                        <img src="images/tech/python.svg" alt="Python">
+                        <img src="images/projects/python.webp" alt="Python">
                         <span>Python</span>
                     </div>
                     <div class="stack-item">
-                        <img src="images/tech/mysql.svg" alt="MySQL">
+                        <img src="images/projects/MySQL.png" alt="MySQL">
                         <span>MySQL</span>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
         
         <div class="hero-scroll">
             <span>Explore my career</span>
-            <i class="fas fa-chevron-down"></i>
+                <div class="mouse"></div>
         </div>
     </div>
 </section>
@@ -115,63 +115,26 @@
                     <i class="fas fa-laptop-code"></i>
                 </div>
                 <h3>Full Stack Development</h3>
-                <p>Built 15+ production-ready web applications using MERN stack with CI/CD pipelines</p>
+                <p>Built 12+ production-ready web applications using MERN stack with CI/CD pipelines</p>
                 <a href="projects.html#web" class="highlight-link">View Projects →</a>
             </div>
             
             <div class="highlight-card">
                 <div class="highlight-icon">
                     <i class="fas fa-database"></i>
-                </div>
+                </div>                                                                                                           
                 <h3>Data Management</h3>
-                <p>Designed and optimized MySQL databases handling 1M+ records with Python ETL processes</p>
+                <p>Designed and optimized MySQL databases handling records with Python ETL processes</p>
                 <a href="projects.html#data" class="highlight-link">View Projects →</a>
             </div>
             
-            <div class="highlight-card">
+            <div class="highlight-card"> 
                 <div class="highlight-icon">
                     <i class="fas fa-server"></i>
                 </div>
                 <h3>System Architecture</h3>
                 <p>Architected scalable backend systems with microservices and RESTful APIs</p>
                 <a href="experience.html" class="highlight-link">View Experience →</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Preview -->
-    <section class="experience-preview" id="experience">
-        <div class="section-header">
-            <h2>Professional Experience</h2>
-            <div class="section-divider"></div>
-            <p>Selected roles and achievements <a href="experience.html" class="view-all">View Full Experience →</a></p>
-        </div>
-        
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-date">2022 - Present</div>
-                <div class="timeline-content">
-                    <h3>Senior Full Stack Developer</h3>
-                    <h4>Tech Solutions Inc.</h4>
-                    <ul>
-                        <li>Led team developing SaaS platform with React frontend and Node.js microservices</li>
-                        <li>Implemented Python data processing scripts improving ETL efficiency by 40%</li>
-                        <li>Mentored 3 junior developers in MERN stack best practices</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-date">2019 - 2022</div>
-                <div class="timeline-content">
-                    <h3>Full Stack Developer</h3>
-                    <h4>Digital Innovations Agency</h4>
-                    <ul>
-                        <li>Built 10+ client websites with custom CMS solutions</li>
-                        <li>Designed MySQL schemas for complex e-commerce platforms</li>
-                        <li>Created REST APIs handling 500+ requests/minute</li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
@@ -189,9 +152,9 @@
                 <div class="education-icon">
                     <i class="fas fa-graduation-cap"></i>
                 </div>
-                <h3>BSc Computer Science</h3>
-                <h4>University of Technology</h4>
-                <p>2015 - 2019 | Specialized in Database Systems</p>
+                <h3>Software Engineering</h3>
+                <h4>Power Learn Project</h4>
+                <p>2025 - present | Specialized in Full-stack Web Development</p>
             </div>
             
             <div class="education-card">
@@ -200,7 +163,7 @@
                 </div>
                 <h3>MERN Stack Certification</h3>
                 <h4>Code Academy</h4>
-                <p>2020 | Advanced React & Node.js</p>
+                <p>2025 | Advanced React & Node.js</p>
             </div>
             
             <div class="education-card">
@@ -209,7 +172,7 @@
                 </div>
                 <h3>Python Data Science</h3>
                 <h4>DataCamp</h4>
-                <p>2021 | Pandas, NumPy, MySQL Integration</p>
+                <p>2025 | Pandas, NumPy, MySQL Integration</p>
             </div>
         </div>
     </section>
@@ -274,20 +237,16 @@
     <script src="js/menu.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // ===== Enhanced Tooltips for Tech Stack =====
             const techIcons = document.querySelectorAll('.tech-icon, .stack-item');
             techIcons.forEach(icon => {
-                // Create tooltip element
                 const tooltip = document.createElement('div');
                 tooltip.className = 'tech-tooltip';
                 
-                // Get tooltip text from data attribute or alt text
                 const tooltipText = icon.getAttribute('data-tooltip') || 
                                   icon.querySelector('img')?.alt || 
                                   icon.querySelector('span')?.textContent;
                 tooltip.textContent = tooltipText;
                 
-                // Position tooltip relative to viewport
                 icon.addEventListener('mouseenter', (e) => {
                     document.body.appendChild(tooltip);
                     
@@ -305,7 +264,6 @@
                 });
             });
         
-            // ===== Improved Smooth Scrolling =====
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     const targetId = this.getAttribute('href');
@@ -318,7 +276,6 @@
                         const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
                         const offsetPosition = targetPosition - headerHeight;
                         
-                        // Smooth scroll with easing function
                         const startPosition = window.pageYOffset;
                         const distance = offsetPosition - startPosition;
                         const duration = 800;
@@ -341,13 +298,11 @@
                         
                         requestAnimationFrame(animation);
                         
-                        // Update URL without page jump
                         history.pushState(null, null, targetId);
                     }
                 });
             });
         
-            // ===== Scroll Progress Indicator =====
             const scrollProgress = document.createElement('div');
             scrollProgress.className = 'scroll-progress';
             document.body.appendChild(scrollProgress);
@@ -358,8 +313,7 @@
                 const scrolled = (winScroll / height) * 100;
                 scrollProgress.style.width = `${scrolled}%`;
             });
-        
-            // ===== Animate Elements on Scroll =====
+       
             const animateOnScroll = function() {
                 const elements = document.querySelectorAll('.timeline-item, .highlight-card, .education-card');
                 
@@ -374,7 +328,6 @@
                 });
             };
             
-            // Set initial state
             document.querySelectorAll('.timeline-item, .highlight-card, .education-card').forEach(el => {
                 el.style.opacity = '0';
                 el.style.transform = 'translateY(20px)';
@@ -384,7 +337,6 @@
             window.addEventListener('scroll', animateOnScroll);
             animateOnScroll(); // Run once on load
         
-            // ===== Print Resume Functionality =====
             const printButton = document.createElement('button');
             printButton.className = 'print-btn';
             printButton.innerHTML = '<i class="fas fa-print"></i> Print Resume';

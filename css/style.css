@@ -3176,3 +3176,24 @@ h1, h2, h3, h4 {
     background: var(--secondary);
     color: var(--dark);
 }
+
+.radar-description {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: justify;
+    line-height: 1.6;
+    color: var(--accent-color);
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+}
+
+@media (max-width: 768px) {
+    .radar-description {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+}

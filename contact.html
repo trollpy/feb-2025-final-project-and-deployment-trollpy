@@ -17,25 +17,6 @@
     <div id="canvas-container"></div>
     
     <!-- Glass Navigation -->
-    <!-- <nav class="glass-nav">
-        <div class="nav-brand">
-            <span class="gradient-text">THOMPHO SHERIFF</span>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="nav-link">Home</a></li>
-            <li><a href="about.html" class="nav-link">About</a></li>
-            <li><a href="skills.html" class="nav-link">Skills</a></li>
-            <li><a href="education.html" class="nav-link">Education</a></li>
-            <li><a href="experience.html" class="nav-link">Experience</a></li>
-            <li><a href="languages.html" class="nav-link">Languages</a></li>
-            <li><a href="projects.html" class="nav-link">Projects</a></li>
-            <li><a href="interests.html" class="nav-link">Interests</a></li>
-            <li><a href="contact.html" class="acitve nav-link">Contact</a></li>
-        </ul>
-        <div class="nav-hire">
-            <a href="contact.html" class="pulse-btn">Hire Me</a>
-        </div>
-    </nav> -->
     <nav class="glass-nav">
         <div class="nav-brand">
             <span class="gradient-text">T.T.S</span>
@@ -59,7 +40,7 @@
             
             <!-- Career Dropdown -->
             <li class="dropdown">
-                <a href="experience.html" class="nav-link">Career ▾</a>
+                <a href="career.html" class="nav-link">Career ▾</a>
                 <ul class="dropdown-menu">
                     <li><a href="education.html" class="nav-link">Education</a></li>
                     <li><a href="experience.html" class="nav-link">Experience</a></li>
@@ -81,7 +62,7 @@
             <div class="contact-info">
                 <h1 class="section-title">Get In <span class="gradient-text">Touch</span></h1>
                 <p class="contact-description">Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
-                <br>Even if you just want to say hi, I would love to hear from you! <br>
+                <br> I'm always open to new ideas and collaborations.</p>
                 </p>
                 
                 
@@ -102,6 +83,7 @@
                     <div class="info-content">
                         <h3>Phone</h3>
                         <p>(+27) 76 3300 523</p>
+                        <p>(+27) 60 2463 407</p>
                     </div>
                 </div>
                 
@@ -219,10 +201,7 @@
         const contactForm = document.querySelector('.contact-form');
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            
-            // Here you would typically send the form data to a server
-            // For demo purposes, we'll just show a success message
-            
+    
             const submitBtn = contactForm.querySelector('.submit-btn');
             submitBtn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
             submitBtn.style.backgroundColor = '#00BFA6';
@@ -235,7 +214,7 @@
                 formGroups.forEach(group => {
                     group.querySelector('label').classList.remove('active');
                 });
-            }, 3000);
+            }, 5000);
         });
     </script>
 </body>
