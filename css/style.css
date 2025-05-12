@@ -69,6 +69,8 @@ h1, h2, h3, h4 {
     perspective: 1000px;
     cursor: pointer;
     transition: all 0.3s ease;      
+    font-style: italic;
+    
 }
 .nav-brand:hover {
     /* transform: rotateY(360deg); */
@@ -390,9 +392,10 @@ h1, h2, h3, h4 {
 .hero-subtitle {
     display: block;
     font-size: 1.5rem;
-    color: var(--secondary);
+    /* color: var(--secondary); */
     font-weight: 600;
     margin-top: 0.5rem;
+    
 }
 
 .hero-description {
@@ -400,6 +403,8 @@ h1, h2, h3, h4 {
     margin-bottom: 2rem;
     max-width: 600px;
     line-height: 1.6;
+    border: #00BFA6;
+    
 }
 
 .hero-cta {

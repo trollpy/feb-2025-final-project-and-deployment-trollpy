@@ -178,3 +178,15 @@
     0% { transform: scale(1); opacity: 0.7; }
     50% { transform: scale(1.2); opacity: 0.4; }
     100% { transform: scale(1); opacity: 0.7; }
+}
+
+.dropdown-menu{
+    list-style: none;
+    color:  var(--primary);
+   background: local;
+  
+}
+
+.dropdown{
+    background-blend-mode: color-burn;
+}
