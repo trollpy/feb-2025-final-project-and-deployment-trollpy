@@ -167,64 +167,66 @@
                 <div class="tab-buttons">
                     <button class="tab-button active" data-tab="javascript">JavaScript</button>
                     <button class="tab-button" data-tab="python">Python</button>
-                    <button class="tab-button" data-tab="java">Java</button>
+                    <button class="tab-button" data-tab="mysql">MySQL</button>
                 </div>
                 
                 <div class="tab-content active" id="javascript">
                     <div class="project-card glass-card">
-                        <h3>E-Commerce Platform</h3>
-                        <p>Full-featured online store built with React, Node.js, and MongoDB</p>
+                        <h3>Digital Clock</h3>
+                        <p>Auto-syncing digital clock with dynamic styling and time zone support</p>
                         <div class="project-stats">
-                            <span>95% JavaScript</span>
-                            <span>5% CSS</span>
+                            <span>80% JavaScript & HTML</span>
+                            <span>20% CSS</span>
                         </div>
                     </div>
                     
                     <div class="project-card glass-card">
-                        <h3>Task Management App</h3>
-                        <p>Real-time collaborative app using Vue.js and Firebase</p>
+                        <h3>Weather App</h3>
+                        <p>Dynamic weather application using OpenWeather API with real-time updates</p>
                         <div class="project-stats">
-                            <span>85% JavaScript</span>
-                            <span>15% HTML</span>
+                            <span>70% JavaScript</span>
+                            <span>20% API Integration</span>
+                            <span>10% HTML/CSS</span>
                         </div>
                     </div>
                 </div>
                 
                 <div class="tab-content" id="python">
                     <div class="project-card glass-card">
-                        <h3>AI Image Recognition</h3>
-                        <p>Machine learning model for object detection using TensorFlow</p>
+                        <h3>OOP pet</h3>
+                        <p>Interactive pet simulation demonstrating object-oriented programming principles</p>
                         <div class="project-stats">
                             <span>100% Python</span>
                         </div>
                     </div>
                     
                     <div class="project-card glass-card">
-                        <h3>Data Analysis Dashboard</h3>
-                        <p>Interactive visualization tool with Pandas and Matplotlib</p>
+                        <h3>COVID-19 Data Analysis</h3>
+                        <p>Interactive visualization of pandemic data using Python, Pandas and Matplotlib</p>
                         <div class="project-stats">
-                            <span>90% Python</span>
-                            <span>10% JavaScript</span>
+                            <span>75% Python</span>
+                            <span>15% JavaScript</span>
+                            <span>10% HTML/CSS</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="tab-content" id="java">
+                <div class="tab-content" id="mysql">
                     <div class="project-card glass-card">
-                        <h3>Banking System</h3>
-                        <p>Secure transaction processing system with Spring Boot</p>
+                        <h3>Book Store Database</h3>
+                        <p>MySQL database system for managing inventory, sales and customers</p>
                         <div class="project-stats">
-                            <span>80% Java</span>
-                            <span>20% SQL</span>
+                            <span>100% MySQL</span>
+                            
                         </div>
                     </div>
                     
                     <div class="project-card glass-card">
-                        <h3>Android Fitness App</h3>
-                        <p>Mobile application for workout tracking and planning</p>
+                        <h3>Library Management System</h3>
+                        <p>CRUD application for managing books, members, and loans using MySQL</p>
                         <div class="project-stats">
-                            <span>75% Java</span>
-                            <span>25% XML</span>
+                            <span>80% MySQL</span>
+                            <span>20% FastAPI & Python</span>
                         </div>
                     </div>
                 </div>
@@ -246,7 +248,7 @@
                 datasets: [
                     {
                         label: 'JavaScript',
-                        data: [90, 70, 80, 85, 85, 85],
+                        data: [85, 70, 70, 95, 95, 85],
                         backgroundColor: 'rgba(108, 99, 255, 0.2)',
                         borderColor: '#6C63FF',
                         borderWidth: 2,
@@ -254,15 +256,15 @@
                     },
                     {
                         label: 'Python',
-                        data: [95, 65, 90, 90, 85, 90],
+                        data: [80, 75, 85, 85, 85, 75],
                         backgroundColor: 'rgba(0, 191, 166, 0.2)',
                         borderColor: '#00BFA6',
                         borderWidth: 2,
                         pointBackgroundColor: '#00BFA6'
                     },
                     {
-                        label: 'Java',
-                        data: [70, 85, 60, 80, 75, 85],
+                        label: 'MySQL',
+                        data: [70, 85, 80, 80, 75, 85],
                         backgroundColor: 'rgba(255, 101, 132, 0.2)',
                         borderColor: '#FF6584',
                         borderWidth: 2,
@@ -279,7 +281,7 @@
                         grid: {
                             color: 'rgba(255, 255, 255, 0.1)'
                         },
-                        suggestedMin: 50,
+                        suggestedMin: 20,
                         suggestedMax: 100,
                         pointLabels: {
                             color: '#fff',
@@ -290,7 +292,7 @@
                         },
                         ticks: {
                             display: false,
-                            stepSize: 20
+                            stepSize: 10
                         }
                     }
                 },

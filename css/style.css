@@ -216,8 +216,9 @@ h1, h2, h3, h4 {
         display: none;
         width: 100%;
     }
-    
-    /* You'll need JavaScript to toggle on click for mobile */
+    .dropdown-menu li {
+        padding: 10px 20px;
+    }
 }
 /* Mobile menu toggle button */
 .nav-toggle {
@@ -1803,6 +1804,7 @@ h1, h2, h3, h4 {
 .timeline {
     position: relative;
     padding: 2rem 0;
+    
 }
 
 .timeline::before {
@@ -1824,6 +1826,7 @@ h1, h2, h3, h4 {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
+    
 }
 
 .timeline-item:nth-child(even) {
@@ -1900,6 +1903,8 @@ h1, h2, h3, h4 {
     font-size: 0.8rem;
     color: var(--primary);
 }
+
+
 
 /* Certifications Section */
 .certifications-section {
@@ -2755,55 +2760,6 @@ h1, h2, h3, h4 {
     margin-bottom: 0.5rem;
 }
 
-/* Education Cards */
-.education-preview {
-    padding: 5rem 2rem;
-}
-
-.education-cards {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-}
-
-.education-card {
-    background: var(--glass);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    padding: 2rem;
-    border: 1px solid var(--glass-border);
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.education-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-}
-
-.education-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--primary);
-}
-
-.education-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.education-card h4 {
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-    color: var(--secondary);
-}
-
-.education-card p {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.9rem;
-}
 
 /* Technical Skills */
 .technical-skills {
@@ -2966,7 +2922,7 @@ h1, h2, h3, h4 {
     }
 }
 
-/* ===== Revised Hero Section CSS ===== */
+
 .career-hero {
     padding: 8rem 2rem 6rem;
     min-height: 90vh;
